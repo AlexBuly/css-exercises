@@ -18,7 +18,7 @@ body {
 
 .container-1 {
   display: flex;
-  justify-content: space-around;
+  margin-left: 0px;
 }
 
 .profile-image {
@@ -55,4 +55,5 @@ a {
 ul {
   list-style-type: none;
   display: flex;
+  padding-left: 20px;
 }
