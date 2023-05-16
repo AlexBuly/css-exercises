@@ -12,20 +12,15 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  display: flex;
-  margin-left: 287px;
-  margin-right: 287px;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
-  gap: 10px;
-  align-items: center;
-  margin-left: -30px;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
   flex: 1;
 }
 
