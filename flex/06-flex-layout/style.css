@@ -16,20 +16,28 @@ body {
 }
 
 ul.left-links {
+  display: flex;
   gap: 15px;
 }
 
 ul.right-links {
+  display: flex;
   gap: 15px;
-  justify-content: center;
+  justify-content: flex-end;
+  flex: 1;
+  padding-right: 40px;
 }
 
 .content {
-  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
 }
 
 img {
   width: 600px;
+  justify-content: center;
 }
 
 button {
@@ -48,17 +56,9 @@ input {
 }
 
 .footer {
+  display: flex;
   background-color: lightgray;
   margin-top: auto;
-}
-
-ul.left-links {
-  display: flex;
-  align-items: flex-start;
-}
-
-ul.right-links {
-  display: flex;
 }
 
 a {
