@@ -17,8 +17,14 @@ img {
 
 .images {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   gap: 52px;
+}
+
+.text {
+  display: flex;
+  gap: 52px;
+  justify-content: space-around;
 }
 /* do not edit this footer */
 .footer {
