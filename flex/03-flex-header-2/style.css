@@ -13,12 +13,7 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
-  justify-content: space-around;
-}
-
-.container-1 {
-  display: flex;
-  margin-left: 0px;
+  padding: 8px;
 }
 
 .profile-image {
@@ -42,7 +37,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-  display: flex;
+  align-self: center;
   
 }
 
@@ -55,10 +50,15 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  padding-left: 20px;
+  padding-left: 16px;
+  gap: 16px;
 }
 
 .container {
   display: flex;
-  flex-wrap: nowrap;
+  flex: 1;
+  justify-content: flex-end;
+  gap: 16px;
+  margin: 8px;
+  align-items: center;
 }
