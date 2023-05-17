@@ -15,6 +15,11 @@ img {
   margin-bottom: 32px;
 }
 
+.items {
+  width: 200px;
+  display: flex;
+}
+
 .images {
   display: flex;
   justify-content: space-around;
