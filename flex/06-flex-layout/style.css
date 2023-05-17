@@ -6,6 +6,8 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .header {
@@ -46,12 +48,8 @@ input {
 }
 
 .footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
   background-color: lightgray;
-  
-
+  margin-top: auto;
 }
 
 ul.left-links {
