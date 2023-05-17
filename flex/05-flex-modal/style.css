@@ -60,9 +60,12 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  margin-left: 115px;
 }
 .text {
   margin-left: 52px;
+  margin-bottom: 15px;
+  padding-right: 3px;
 }
 
 button {
