@@ -43,7 +43,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   margin-bottom: 8px;
 }
@@ -76,7 +76,6 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
-  margin-left: 52px;
 }
 
 button.cancel {
