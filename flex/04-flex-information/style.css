@@ -19,12 +19,14 @@ img {
   display: flex;
   justify-content: space-around;
   gap: 52px;
+  flex-shrink: 1;
 }
 
 .text {
   display: flex;
   gap: 52px;
-  justify-content: space-around;
+  justify-content: start;
+  flex: 1;
 }
 /* do not edit this footer */
 .footer {
