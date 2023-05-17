@@ -16,7 +16,8 @@ img {
 }
 
 .items {
-  width: 200px;
+  flex-basis: auto;
+  flex-direction: column;
   display: flex;
 }
 
